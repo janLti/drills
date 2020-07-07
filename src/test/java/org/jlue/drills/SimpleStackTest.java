@@ -9,6 +9,6 @@ public class SimpleStackTest {
     public void pushPopTest() {
         SimpleStack<Integer> testObj = new SimpleStack<Integer>();
         testObj.push(1);
-        Assert.assertEquals(1, testObj.pop().intValue());
+        Assert.assertEquals(null, testObj.pop().intValue());
     }
 }
